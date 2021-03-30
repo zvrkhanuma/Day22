@@ -1,11 +1,10 @@
-// src/App.js
 import React, { Component } from  'react';
-import Flower from './Flower'; 
+import Box from './Box'; 
 class App extends Component {
     render() {
         return (            
-         <Flower />
+         <Box />
         )
     }
 }
-export default App;
+export default App; 

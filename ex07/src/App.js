@@ -4,7 +4,10 @@ import Box from './Box';
 class App extends Component {
     render() {
         return (            
-                <Box />
+          <div className="container">
+          <Box />
+          
+      </div>
         )
     }
 }
